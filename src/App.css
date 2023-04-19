@@ -1,0 +1,46 @@
+
+.App{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+}
+.App__title{
+    text-align: center;
+    color: rgb(228, 225, 225);
+    text-shadow: 10px 15px 7px rgba(97, 96, 96, 0.75);
+    font-size: 4em;
+}
+.App__btn{
+    display: block;
+    padding: 0.5em 1em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(184, 184, 182, 0.55);
+    color: rgb(78, 77, 77);
+    border: 2px solid rgba(221, 218, 218, 0.902);
+    border-radius: 0.4em;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.App__btn:hover{
+    filter: brightness(1);
+    transform: scale(1.1)
+}
+.App__phrase{
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(207, 203, 203, 70%);
+    padding: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(221, 218, 218, 0.902);
+    border-radius: 0.3em;
+    border-top-left-radius: 9em;
+    border-bottom-right-radius: 9em;
+    font-size: 1.3em;
+}
