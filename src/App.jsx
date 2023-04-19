@@ -1,6 +1,6 @@
 import './App.css'
 import Phrase from './components/Phrase';
-import Button from './components/button';
+import Button from './components/Button';
 import pharses from './utils/phrases.json'
 import getRandomArray from './utils/getRandomArray';
 import { useState } from 'react';
